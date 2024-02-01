@@ -1,0 +1,133 @@
+/*
+    Author: Bryan Bravo, Matthew Borja, Robert Briz, Franco Lagarde
+    Project: Cart-To-Go Website
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.admin{
+    width: 100%;
+}
+.add-admin{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.button{
+    background-color: rgb(31, 241, 31);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: rgb(60, 60, 255);
+}
+
+.button-update{
+    background-color: rgb(31, 241, 31);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button-update:hover{
+    background-color: rgb(60, 60, 255);
+}
+
+.button-delete{
+    background-color: red;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button-delete:hover{
+    background-color: pink;
+}
+
+.correct{
+    color: rgb(31, 241, 31);
+}
+.incorrect{
+    color: red;
+}
+
+.menu{
+    text-align: right;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #09553f;
+}
+.menu ul li a:hover{
+    color: #2919ff;
+}
+
+.main-content{
+    background-color: whitesmoke;
+    padding: 3% 0;
+}
+
+.column{
+    width: 18%;
+    background-color: orange;
+    margin: 5%;
+    padding: 2%;
+    float: left;
+}
+
+.column2{
+    width: 18%;
+    background-color: orange;
+    margin-left: 18%;
+    padding: 2%;
+    float: left;
+}
+
+.footer{
+    background-color: #0984e3;
+}
+
+.login{
+    width: 25%;
+    border: 1px solid silver;
+    margin: 10% auto;
+    padding: 2%;
+}

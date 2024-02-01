@@ -1,0 +1,287 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	color: #FF4757;
+	text-decoration: none;
+}
+
+h2{
+	margin-bottom: 2%;
+}
+
+a:hover{
+	color:#A4B0BE;
+}
+
+.floatfix{
+	clear: both;
+	float: none;
+}
+
+.btn{
+	padding: 1%;
+	border: none;
+	font-size: 1rem;
+	border-radius: 4px;
+}
+
+.btn-primary{
+	background-color: yellow;
+	color: Black;
+	cursor: pointer;
+}
+
+.btn-primary:hover{
+	color: white;
+	background-color: #A4B0BE;
+}
+
+
+.container{	
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.menu ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 2%;
+	font-weight: bold;
+}
+
+.menu{
+	text-align: center;
+	line-height: 50px;	
+}
+
+.img-resp{
+	width: 100%;
+}
+
+.img-curve{
+	border-radius: 15px;
+}
+
+/*floating texts*/ 
+.fdept{
+	position: relative;
+}
+
+.ftext-meat{
+	position: absolute;
+	bottom: 350px;
+	left: 42%;
+}
+
+.ftext-seafood{
+	position: absolute;
+	bottom: 360px;
+	left: 42%;
+}
+
+.ftext-bev{
+	position: absolute;
+	bottom: 365px;
+	left: 30%;
+}
+
+.ftext-essentials{
+	position: absolute;
+	bottom: 370px;
+	left: 38%;
+}
+
+.ftext-beauty{
+	position: absolute;
+	bottom: 400px;
+	left: 35%;
+}
+
+/*------------Search Section------------*/
+.searchtext{
+	background-image: url("../Cart-to-go/images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 8% 0;
+}
+
+/*searchbar edit*/
+.searchbar{
+	text-align: center;
+}
+
+.logo{
+	background-image: url("../Cart-to-go/images/logo.png");
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10% 0;
+}
+
+.logoalign{
+	text-align: center;
+}
+
+.searchtext input[type="search"]{
+	width: 48%;
+	padding: 1%;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+}
+
+/*------------Department Section------------*/
+.content{
+	padding: 4% 0;
+	background-color: #FADADD;
+}
+
+.dept{
+	width: 29%;
+	float: left;
+	margin: 2%;
+}
+
+/*------------Items Section------------*/
+.items{
+	background-color: #FADADD;
+	padding: 4% 0;
+}
+
+.itembox{
+	width: 43%;
+	margin: 3%;
+	padding: 2%;
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.item-image{
+	width: 100%;
+	float: center;
+}
+
+.item-desc{
+	width: 70%;
+	margin-left: 15%;
+}
+
+.price{
+	font-size: 1.2rem;
+	margin: 2% 0;
+}
+
+.description{
+	font-size: 1rem;
+	color: #57606F;
+}
+
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-qty{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.cart-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+.float-container{
+    position: relative;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.correct{
+    color: rgb(31, 241, 31);
+}
+
+.incorrect{
+    color: red;
+}
+
+.main-content{
+    background-color: whitesmoke;
+    padding: 3% 0;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.add-admin{
+    width: 30%;
+}
+
+.button{
+    background-color: rgb(31, 241, 31);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-delete{
+    background-color: red;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
